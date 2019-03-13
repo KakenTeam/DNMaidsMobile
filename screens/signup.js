@@ -4,7 +4,7 @@ import LinearGradient from "react-native-linear-gradient";
 import Icon from "react-native-vector-icons/Ionicons";
 
 
-export default class Login extends Component{
+export default class Signup extends Component{
     constructor(props) {
     super(props);
     this.state ={
@@ -123,9 +123,6 @@ export default class Login extends Component{
                                 </TextInput>
                     
                             <TouchableOpacity style = {styles.btnSave} onPress={this.validate}>
-                                <Text style={styles.headerTitle}>Log in</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity style = {styles.textSignUp} onPress={() => navigate('Signup')}>
                                 <Text style={styles.headerTitle}>Sign Up</Text>
                             </TouchableOpacity>
                         </View>
